@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "Door Angle",
-      "ioValue": 0
+      "ioValue": 56
     }
   ],
   "topLevel": true,
@@ -1779,7 +1779,7 @@
       "ioValues": [
         {
           "name": "Open Angle",
-          "ioValue": 0
+          "ioValue": 56
         }
       ],
       "topLevel": false,
@@ -5681,7 +5681,7 @@
             },
             {
               "name": "Angle",
-              "ioValue": 0
+              "ioValue": 56
             }
           ],
           "topLevel": false,
@@ -5695,7 +5695,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 0
+                  "ioValue": 56
                 }
               ],
               "currentEquation": "min(x, 90)"
@@ -5775,7 +5775,7 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 56
                 }
               ]
             },
