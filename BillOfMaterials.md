@@ -2,4 +2,9 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|M8 nylon-insert lock nut, zinc|1|$0.00||
+|M8 x 60 mm hex bolt, zinc|1|$0.00||
+|98 mm scooter wheels with bearings, fits Razor A/A2 (set of 2, one used)|1|$11.99|https://monsterscooterparts.com/products/98mm-light-up-razor-kick-scooter-wheels|
+|Everbilt 1-1/2 in x 48 in continuous (piano) hinge|1|$16.07|https://www.homedepot.com/p/Everbilt-1-1-2-in-x-48-in-Bright-Brass-Continuous-Hinge-15371/202034048|
+|Everbilt single magnetic touch catch (push-to-open)|1|$0.00|https://www.homedepot.com/p/Everbilt-Single-Magnetic-Touch-Catch-Brown-1-Pack-9235969/303007767|
+|Total: |5|$28.06| |
