@@ -1607,8 +1607,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2143,
-      "y": 0.7127,
+      "x": 0.2176,
+      "y": 0.707,
       "uniqueID": "id-9",
       "name": "References",
       "topLevel": false,
@@ -1639,8 +1639,8 @@
         },
         {
           "atomType": "Import",
-          "x": 0.1614,
-          "y": 0.7239,
+          "x": 0.1442,
+          "y": 0.7493,
           "uniqueID": "id-15",
           "fileName": "6BEACD7D-2DD7-499A-8120-296B3AAAB649.JPG",
           "name": "Import",
