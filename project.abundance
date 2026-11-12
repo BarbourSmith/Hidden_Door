@@ -1731,297 +1731,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "ExtractTag",
-      "x": 0.7,
-      "y": 0.8,
-      "uniqueID": "id-1478",
-      "name": "Extract wood",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tagIndex": 0,
-      "selectedTags": [
-        "wood"
-      ],
-      "includeUntagged": false,
-      "notKeepOut": false
-    },
-    {
-      "atomType": "CutOrient",
-      "x": 0.8,
-      "y": 0.8,
-      "uniqueID": "id-1481",
-      "name": "Cut Orient",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "orientations": [
-        {
-          "downwardFaceIndex": 1,
-          "faceCount": 6,
-          "faceNormal": [
-            0.5591929034707468,
-            0.8290375725550417,
-            0
-          ]
-        },
-        {
-          "downwardFaceIndex": 1,
-          "faceCount": 6,
-          "faceNormal": [
-            0.5591929034707468,
-            0.8290375725550417,
-            0
-          ]
-        },
-        {
-          "downwardFaceIndex": 0,
-          "faceCount": 6,
-          "faceNormal": [
-            0.8290375725550417,
-            -0.5591929034707468,
-            0
-          ]
-        },
-        {
-          "downwardFaceIndex": 4,
-          "faceCount": 6,
-          "faceNormal": [
-            0,
-            0,
-            -1
-          ]
-        },
-        {
-          "downwardFaceIndex": 4,
-          "faceCount": 6,
-          "faceNormal": [
-            0,
-            0,
-            -1
-          ]
-        },
-        {
-          "downwardFaceIndex": 4,
-          "faceCount": 6,
-          "faceNormal": [
-            0,
-            0,
-            -1
-          ]
-        },
-        {
-          "downwardFaceIndex": 4,
-          "faceCount": 6,
-          "faceNormal": [
-            0,
-            0,
-            -1
-          ]
-        },
-        {
-          "downwardFaceIndex": 4,
-          "faceCount": 6,
-          "faceNormal": [
-            0,
-            0,
-            -1
-          ]
-        },
-        {
-          "downwardFaceIndex": 0,
-          "faceCount": 6,
-          "faceNormal": [
-            0.8290375725550417,
-            -0.5591929034707468,
-            0
-          ]
-        },
-        {
-          "downwardFaceIndex": 0,
-          "faceCount": 6,
-          "faceNormal": [
-            0.8290375725550417,
-            -0.5591929034707468,
-            0
-          ]
-        },
-        {
-          "downwardFaceIndex": 0,
-          "faceCount": 6,
-          "faceNormal": [
-            0.8290375725550417,
-            -0.5591929034707468,
-            0
-          ]
-        },
-        {
-          "downwardFaceIndex": 0,
-          "faceCount": 6,
-          "faceNormal": [
-            0.8290375725550417,
-            -0.5591929034707468,
-            0
-          ]
-        },
-        {
-          "downwardFaceIndex": 0,
-          "faceCount": 6,
-          "faceNormal": [
-            0.8290375725550417,
-            -0.5591929034707468,
-            0
-          ]
-        },
-        {
-          "downwardFaceIndex": 1,
-          "faceCount": 6
-        },
-        {
-          "downwardFaceIndex": 4,
-          "faceCount": 6
-        }
-      ],
-      "orientationsForHashed": 15
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.9,
-      "y": 0.8,
-      "uniqueID": "id-1484",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438,
-          "currentEquation": "2438"
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219,
-          "currentEquation": "1219"
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10,
-          "currentEquation": "10"
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 4
-        },
-        {
-          "name": "Search Time (minutes)",
-          "ioValue": 1
-        }
-      ],
-      "placements": [],
-      "placementsVersion": 2
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.7,
-      "y": 0.95,
-      "uniqueID": "id-1492",
-      "name": "Extract wood 12mm",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tagIndex": 0,
-      "selectedTags": [
-        "wood 12mm"
-      ],
-      "includeUntagged": false,
-      "notKeepOut": false
-    },
-    {
-      "atomType": "CutOrient",
-      "x": 0.8,
-      "y": 0.95,
-      "uniqueID": "id-1495",
-      "name": "Cut Orient",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "orientations": [
-        {
-          "downwardFaceIndex": 0,
-          "faceCount": 6,
-          "faceNormal": [
-            0,
-            -1,
-            0
-          ]
-        }
-      ],
-      "orientationsForHashed": 1
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.9,
-      "y": 0.95,
-      "uniqueID": "id-1498",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438,
-          "currentEquation": "2438"
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219,
-          "currentEquation": "1219"
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10,
-          "currentEquation": "10"
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        },
-        {
-          "name": "Search Time (minutes)",
-          "ioValue": 2
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 0,
-            "rotate": 90,
-            "translate": {
-              "x": 609,
-              "y": 42.5
-            }
-          }
-        ]
-      ],
-      "placementsVersion": 2
-    },
-    {
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
@@ -2584,6 +2293,481 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-1339",
               "ap2ID": "id-1289"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.6,
+          "y": 0.9,
+          "uniqueID": "id-1506",
+          "name": "Plywood Cut Layout",
+          "ioValues": [
+            {
+              "name": "Door Parts",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Cleat",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1508",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.1538,
+              "uniqueID": "id-1510",
+              "name": "Door Parts",
+              "type": "geometry",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.2462,
+              "uniqueID": "id-1513",
+              "name": "Cleat",
+              "type": "geometry",
+              "options": []
+            },
+            {
+              "atomType": "ExtractTag",
+              "x": 0.18,
+              "y": 0.44,
+              "uniqueID": "id-1516",
+              "name": "Extract wood",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "tagIndex": 0,
+              "selectedTags": [
+                "wood"
+              ],
+              "includeUntagged": false,
+              "notKeepOut": false
+            },
+            {
+              "atomType": "CutOrient",
+              "x": 0.26,
+              "y": 0.56,
+              "uniqueID": "id-1519",
+              "name": "Cut Orient",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "orientations": [
+                {
+                  "downwardFaceIndex": 1,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    1,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 1,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    1,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 0,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 4,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    0,
+                    -1
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 4,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    0,
+                    -1
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 4,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    0,
+                    -1
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 4,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    0,
+                    -1
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 4,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    0,
+                    -1
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 0,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 0,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 0,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 0,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 0,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "downwardFaceIndex": 1,
+                  "faceCount": 6
+                },
+                {
+                  "downwardFaceIndex": 4,
+                  "faceCount": 6
+                }
+              ],
+              "orientationsForHashed": 15
+            },
+            {
+              "atomType": "CutLayout",
+              "x": 0.34,
+              "y": 0.68,
+              "uniqueID": "id-1522",
+              "name": "Cut Layout",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Sheet Width",
+                  "ioValue": 2438,
+                  "currentEquation": "2438"
+                },
+                {
+                  "name": "Sheet Height",
+                  "ioValue": 1219,
+                  "currentEquation": "1219"
+                },
+                {
+                  "name": "Part Padding",
+                  "ioValue": 10,
+                  "currentEquation": "10"
+                },
+                {
+                  "name": "Orientations",
+                  "ioValue": 4
+                },
+                {
+                  "name": "Search Time (minutes)",
+                  "ioValue": 1
+                }
+              ],
+              "placements": [
+                [
+                  {
+                    "id": 8,
+                    "rotate": 180,
+                    "translate": {
+                      "x": 25.5,
+                      "y": 394.0000305175781
+                    }
+                  },
+                  {
+                    "id": 4,
+                    "rotate": 180,
+                    "translate": {
+                      "x": 162.5,
+                      "y": 394.0000305175781
+                    }
+                  },
+                  {
+                    "id": 12,
+                    "rotate": 0,
+                    "translate": {
+                      "x": 333,
+                      "y": 394
+                    }
+                  },
+                  {
+                    "id": 5,
+                    "rotate": 0,
+                    "translate": {
+                      "x": 503.5,
+                      "y": 394
+                    }
+                  },
+                  {
+                    "id": 6,
+                    "rotate": 270,
+                    "translate": {
+                      "x": 394,
+                      "y": 899.5
+                    }
+                  },
+                  {
+                    "id": 2,
+                    "rotate": 90,
+                    "translate": {
+                      "x": 1440.5400390625,
+                      "y": 394
+                    }
+                  },
+                  {
+                    "id": 7,
+                    "rotate": 180,
+                    "translate": {
+                      "x": 2211.0400390625,
+                      "y": 394.0000305175781
+                    }
+                  },
+                  {
+                    "id": 3,
+                    "rotate": 90,
+                    "translate": {
+                      "x": 1182,
+                      "y": 899.5
+                    }
+                  },
+                  {
+                    "id": 10,
+                    "rotate": 180,
+                    "translate": {
+                      "x": 2348.0400390625,
+                      "y": 394.0000305175781
+                    }
+                  },
+                  {
+                    "id": 14,
+                    "rotate": 90,
+                    "translate": {
+                      "x": 1979,
+                      "y": 800.5
+                    }
+                  },
+                  {
+                    "id": 9,
+                    "rotate": 90,
+                    "translate": {
+                      "x": 1970,
+                      "y": 838.5
+                    }
+                  },
+                  {
+                    "id": 13,
+                    "rotate": 270,
+                    "translate": {
+                      "x": 616.5,
+                      "y": 1023.5
+                    }
+                  }
+                ],
+                [
+                  {
+                    "id": 0,
+                    "rotate": 270,
+                    "translate": {
+                      "x": 659,
+                      "y": 120.5
+                    }
+                  },
+                  {
+                    "id": 1,
+                    "rotate": 270,
+                    "translate": {
+                      "x": 659,
+                      "y": 361.5
+                    }
+                  },
+                  {
+                    "id": 11,
+                    "rotate": 180,
+                    "translate": {
+                      "x": 1343.5,
+                      "y": 394.0000305175781
+                    }
+                  }
+                ]
+              ],
+              "placementsVersion": 2
+            },
+            {
+              "atomType": "CutOrient",
+              "x": 0.42,
+              "y": 0.8,
+              "uniqueID": "id-1530",
+              "name": "Cut Orient",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "orientations": [
+                {
+                  "downwardFaceIndex": 0,
+                  "faceCount": 6,
+                  "faceNormal": [
+                    0,
+                    -1,
+                    0
+                  ]
+                }
+              ],
+              "orientationsForHashed": 1
+            },
+            {
+              "atomType": "CutLayout",
+              "x": 0.5,
+              "y": 0.2,
+              "uniqueID": "id-1533",
+              "name": "Cut Layout",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Sheet Width",
+                  "ioValue": 2438,
+                  "currentEquation": "2438"
+                },
+                {
+                  "name": "Sheet Height",
+                  "ioValue": 1219,
+                  "currentEquation": "1219"
+                },
+                {
+                  "name": "Part Padding",
+                  "ioValue": 10,
+                  "currentEquation": "10"
+                },
+                {
+                  "name": "Orientations",
+                  "ioValue": 4
+                },
+                {
+                  "name": "Search Time (minutes)",
+                  "ioValue": 1
+                }
+              ],
+              "placements": [
+                [
+                  {
+                    "id": 0,
+                    "rotate": 90,
+                    "translate": {
+                      "x": 609,
+                      "y": 42.5
+                    }
+                  }
+                ]
+              ],
+              "placementsVersion": 2
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1510",
+              "ap2ID": "id-1516"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1513",
+              "ap2ID": "id-1530"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1516",
+              "ap2ID": "id-1519"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1519",
+              "ap2ID": "id-1522"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1530",
+              "ap2ID": "id-1533"
             }
           ],
           "fileTypeVersion": 1
@@ -6148,9 +6332,19 @@
           "ap2ID": "id-1009"
         },
         {
+          "ap2Name": "Cleat",
+          "ap1ID": "id-1263",
+          "ap2ID": "id-1506"
+        },
+        {
           "ap2Name": "Shape3",
           "ap1ID": "id-1287",
           "ap2ID": "id-1009"
+        },
+        {
+          "ap2Name": "Door Parts",
+          "ap1ID": "id-464",
+          "ap2ID": "id-1506"
         },
         {
           "ap2Name": "Shape 1",
@@ -6307,39 +6501,9 @@
       "ap2ID": "id-453"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1478",
-      "ap2ID": "id-1481"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1481",
-      "ap2ID": "id-1484"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1492",
-      "ap2ID": "id-1495"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1495",
-      "ap2ID": "id-1498"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-453",
       "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-460",
-      "ap2ID": "id-1478"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-460",
-      "ap2ID": "id-1492"
     },
     {
       "ap2Name": "Shape3",
