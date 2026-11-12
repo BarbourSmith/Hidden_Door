@@ -3,9 +3,9 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |M8 nylon-insert lock nut, zinc|1|$0.00||
-|M8 x 70 mm hex bolt, zinc|1|$0.00||
+|M8 x 80 mm hex bolt, zinc|1|$0.00||
 |#10 x 1 in pan head wood screw|4|$0.00||
+|3-1/2 in heavy-duty steel door hinge (butt hinge)|3|$0.00||
 |98 mm scooter wheels with bearings, fits Razor A/A2 (set of 2, one used)|1|$11.99|https://monsterscooterparts.com/products/98mm-light-up-razor-kick-scooter-wheels|
-|Everbilt 1-1/2 in x 48 in continuous (piano) hinge|1|$16.07|https://www.homedepot.com/p/Everbilt-1-1-2-in-x-48-in-Bright-Brass-Continuous-Hinge-15371/202034048|
 |Everbilt single magnetic touch catch (push-to-open)|1|$0.00|https://www.homedepot.com/p/Everbilt-Single-Magnetic-Touch-Catch-Brown-1-Pack-9235969/303007767|
-|Total: |9|$28.06| |
+|Total: |11|$11.99| |
