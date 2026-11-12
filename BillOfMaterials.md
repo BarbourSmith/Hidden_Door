@@ -2,10 +2,12 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|M8 nylon-insert lock nut, zinc|1|$0.00||
-|M8 x 80 mm hex bolt, zinc|1|$0.00||
-|#10 x 1 in pan head wood screw|4|$0.00||
-|3-1/2 in heavy-duty steel door hinge (butt hinge)|3|$0.00||
-|98 mm scooter wheels with bearings, fits Razor A/A2 (set of 2, one used)|1|$11.99|https://monsterscooterparts.com/products/98mm-light-up-razor-kick-scooter-wheels|
-|Everbilt single magnetic touch catch (push-to-open)|1|$0.00|https://www.homedepot.com/p/Everbilt-Single-Magnetic-Touch-Catch-Brown-1-Pack-9235969/303007767|
-|Total: |11|$11.99| |
+|AlveyTech 98 mm Razor A kick scooter wheels with bearings, 5-spoke (set of 2, one used)|1|$21.29|[Amazon](https://www.amazon.com/AlveyTech-Scooter-Wheels-Bearings-Orange/dp/B07ZL47CYP?tag=maslowcnc01-20)|
+|Magnetic push-to-open latch, heavy duty (5-pack, one used)|1|$0.00|[Amazon](https://www.amazon.com/Magnetic-Latches-Hardware-Cabinets-Wardrobes/dp/B0D3Y5P7QB?tag=maslowcnc01-20)|
+|M8 nylon-insert lock nut (MonsterBolts 25-pack)|1|$0.00|[Amazon](https://www.amazon.com/Nylon-Insert-Metric-Coarse-Black/dp/B083Z2GCRR?tag=maslowcnc01-20)|
+|3.5 x 3.5 in stainless ball-bearing door hinge, 154 lb rated (3-pack covers all three)|3|$0.00|[Amazon](https://www.amazon.com/Stainless-Bearing-Commercial-Interior-Hardwares/dp/B09M7Z6FJM?tag=maslowcnc01-20)|
+|#10 x 1 in stainless pan head wood screw (Bolt Dropper 100-pack)|4|$0.00|[Amazon](https://www.amazon.com/Stainless-Phillips-Screws-Bolt-Dropper/dp/B07D1KZ3M6?tag=maslowcnc01-20)|
+|M8 x 80 mm stainless hex bolt with flat washers (goodparts 4-pack)|1|$0.00|[Amazon](https://www.amazon.com/Stainless-Steel-Screws-Washers-Threaded/dp/B08XQQJ126?tag=maslowcnc01-20)|
+|Total: |11|$21.29| |
+
+_Amazon links in this list are affiliate links to fund development_

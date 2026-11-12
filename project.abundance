@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "Door Angle",
-      "ioValue": 85
+      "ioValue": 0
     }
   ],
   "topLevel": true,
@@ -1779,7 +1779,7 @@
       "ioValues": [
         {
           "name": "Open Angle",
-          "ioValue": 85
+          "ioValue": 0
         }
       ],
       "topLevel": false,
@@ -2085,8 +2085,8 @@
                     },
                     {
                       "name": "Item Name",
-                      "ioValue": "3-1/2 in heavy-duty steel door hinge (butt hinge)",
-                      "currentEquation": "3-1/2 in heavy-duty steel door hinge (butt hinge)"
+                      "ioValue": "3.5 x 3.5 in stainless ball-bearing door hinge, 154 lb rated (3-pack covers all three)",
+                      "currentEquation": "3.5 x 3.5 in stainless ball-bearing door hinge, 154 lb rated (3-pack covers all three)"
                     },
                     {
                       "name": "Number Needed",
@@ -2098,14 +2098,15 @@
                     },
                     {
                       "name": "Source Link",
-                      "ioValue": ""
+                      "ioValue": "https://www.amazon.com/Stainless-Bearing-Commercial-Interior-Hardwares/dp/B09M7Z6FJM",
+                      "currentEquation": "https://www.amazon.com/Stainless-Bearing-Commercial-Interior-Hardwares/dp/B09M7Z6FJM"
                     }
                   ],
                   "BOMitem": {
-                    "BOMitemName": "3-1/2 in heavy-duty steel door hinge (butt hinge)",
+                    "BOMitemName": "3.5 x 3.5 in stainless ball-bearing door hinge, 154 lb rated (3-pack covers all three)",
                     "numberNeeded": 1,
                     "costUSD": 0,
-                    "source": ""
+                    "source": "https://www.amazon.com/Stainless-Bearing-Commercial-Interior-Hardwares/dp/B09M7Z6FJM"
                   }
                 },
                 {
@@ -2316,6 +2317,340 @@
           "name": "Carcass",
           "topLevel": false,
           "allAtoms": [
+            {
+              "atomType": "Molecule",
+              "x": 0.45,
+              "y": 0.9,
+              "uniqueID": "id-1418",
+              "name": "Gap Trim",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-1420",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Molecule",
+                  "x": 0.2,
+                  "y": 0.3,
+                  "uniqueID": "id-1422",
+                  "name": "Side Scribe Strip",
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-1424",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Rectangle",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "uniqueID": "id-1426",
+                      "ioValues": [
+                        {
+                          "name": "x length",
+                          "ioValue": 18
+                        },
+                        {
+                          "name": "y length",
+                          "ioValue": 14
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Extrude",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "uniqueID": "id-1430",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "height",
+                          "ioValue": 1222
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Tag",
+                      "x": 0.34,
+                      "y": 0.44,
+                      "uniqueID": "id-1434",
+                      "name": "wood",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ],
+                      "tags": [
+                        "wood"
+                      ]
+                    },
+                    {
+                      "atomType": "Move",
+                      "x": 0.42,
+                      "y": 0.56,
+                      "uniqueID": "id-1437",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "xDist",
+                          "ioValue": 9
+                        },
+                        {
+                          "name": "yDist",
+                          "ioValue": 7
+                        },
+                        {
+                          "name": "zDist",
+                          "ioValue": 85
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Color",
+                      "x": 0.5,
+                      "y": 0.68,
+                      "uniqueID": "id-1443",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ],
+                      "selectedColor": "Brown"
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1426",
+                      "ap2ID": "id-1430"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1430",
+                      "ap2ID": "id-1434"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1434",
+                      "ap2ID": "id-1437"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1437",
+                      "ap2ID": "id-1443"
+                    },
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-1443",
+                      "ap2ID": "id-1424"
+                    }
+                  ],
+                  "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "Molecule",
+                  "x": 0.2,
+                  "y": 0.7,
+                  "uniqueID": "id-1446",
+                  "name": "Top Scribe Strip",
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-1448",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Rectangle",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "uniqueID": "id-1450",
+                      "ioValues": [
+                        {
+                          "name": "x length",
+                          "ioValue": 795
+                        },
+                        {
+                          "name": "y length",
+                          "ioValue": 14
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Extrude",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "uniqueID": "id-1454",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "height",
+                          "ioValue": 18
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Tag",
+                      "x": 0.34,
+                      "y": 0.44,
+                      "uniqueID": "id-1458",
+                      "name": "wood",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ],
+                      "tags": [
+                        "wood"
+                      ]
+                    },
+                    {
+                      "atomType": "Move",
+                      "x": 0.42,
+                      "y": 0.56,
+                      "uniqueID": "id-1461",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "xDist",
+                          "ioValue": 415.5
+                        },
+                        {
+                          "name": "yDist",
+                          "ioValue": 7
+                        },
+                        {
+                          "name": "zDist",
+                          "ioValue": 1289
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Color",
+                      "x": 0.5,
+                      "y": 0.68,
+                      "uniqueID": "id-1467",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ],
+                      "selectedColor": "Brown"
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1450",
+                      "ap2ID": "id-1454"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1454",
+                      "ap2ID": "id-1458"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1458",
+                      "ap2ID": "id-1461"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1461",
+                      "ap2ID": "id-1467"
+                    },
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-1467",
+                      "ap2ID": "id-1448"
+                    }
+                  ],
+                  "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "Assembly",
+                  "x": 0.28,
+                  "y": 0.44,
+                  "uniqueID": "id-1470",
+                  "ioValues": [
+                    {
+                      "name": "makeDisjoint",
+                      "ioValue": false
+                    },
+                    {
+                      "name": "Shape 1",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape2",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape3",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-1422",
+                  "ap2ID": "id-1470"
+                },
+                {
+                  "ap2Name": "Shape2",
+                  "ap1ID": "id-1446",
+                  "ap2ID": "id-1470"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-1470",
+                  "ap2ID": "id-1420"
+                }
+              ],
+              "fileTypeVersion": 1
+            },
             {
               "atomType": "Output",
               "x": 0.98,
@@ -3509,11 +3844,20 @@
                 {
                   "name": "Shape6",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Shape7",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
             }
           ],
           "allConnectors": [
+            {
+              "ap2Name": "Shape6",
+              "ap1ID": "id-1418",
+              "ap2ID": "id-656"
+            },
             {
               "ap2Name": "Shape 1",
               "ap1ID": "id-468",
@@ -3701,8 +4045,8 @@
                             },
                             {
                               "name": "Item Name",
-                              "ioValue": "#10 x 1 in pan head wood screw",
-                              "currentEquation": "#10 x 1 in pan head wood screw"
+                              "ioValue": "#10 x 1 in stainless pan head wood screw (Bolt Dropper 100-pack)",
+                              "currentEquation": "#10 x 1 in stainless pan head wood screw (Bolt Dropper 100-pack)"
                             },
                             {
                               "name": "Number Needed",
@@ -3714,14 +4058,15 @@
                             },
                             {
                               "name": "Source Link",
-                              "ioValue": ""
+                              "ioValue": "https://www.amazon.com/Stainless-Phillips-Screws-Bolt-Dropper/dp/B07D1KZ3M6",
+                              "currentEquation": "https://www.amazon.com/Stainless-Phillips-Screws-Bolt-Dropper/dp/B07D1KZ3M6"
                             }
                           ],
                           "BOMitem": {
-                            "BOMitemName": "#10 x 1 in pan head wood screw",
+                            "BOMitemName": "#10 x 1 in stainless pan head wood screw (Bolt Dropper 100-pack)",
                             "numberNeeded": 1,
                             "costUSD": 0,
-                            "source": ""
+                            "source": "https://www.amazon.com/Stainless-Phillips-Screws-Bolt-Dropper/dp/B07D1KZ3M6"
                           }
                         },
                         {
@@ -4470,8 +4815,8 @@
                         },
                         {
                           "name": "Item Name",
-                          "ioValue": "98 mm scooter wheels with bearings, fits Razor A/A2 (set of 2, one used)",
-                          "currentEquation": "98 mm scooter wheels with bearings, fits Razor A/A2 (set of 2, one used)"
+                          "ioValue": "AlveyTech 98 mm Razor A kick scooter wheels with bearings, 5-spoke (set of 2, one used)",
+                          "currentEquation": "AlveyTech 98 mm Razor A kick scooter wheels with bearings, 5-spoke (set of 2, one used)"
                         },
                         {
                           "name": "Number Needed",
@@ -4479,19 +4824,19 @@
                         },
                         {
                           "name": "Cost (USD)",
-                          "ioValue": 11.99
+                          "ioValue": 21.29
                         },
                         {
                           "name": "Source Link",
-                          "ioValue": "https://monsterscooterparts.com/products/98mm-light-up-razor-kick-scooter-wheels",
-                          "currentEquation": "https://monsterscooterparts.com/products/98mm-light-up-razor-kick-scooter-wheels"
+                          "ioValue": "https://www.amazon.com/AlveyTech-Scooter-Wheels-Bearings-Orange/dp/B07ZL47CYP",
+                          "currentEquation": "https://www.amazon.com/AlveyTech-Scooter-Wheels-Bearings-Orange/dp/B07ZL47CYP"
                         }
                       ],
                       "BOMitem": {
-                        "BOMitemName": "98 mm scooter wheels with bearings, fits Razor A/A2 (set of 2, one used)",
+                        "BOMitemName": "AlveyTech 98 mm Razor A kick scooter wheels with bearings, 5-spoke (set of 2, one used)",
                         "numberNeeded": 1,
-                        "costUSD": 11.99,
-                        "source": "https://monsterscooterparts.com/products/98mm-light-up-razor-kick-scooter-wheels"
+                        "costUSD": 21.29,
+                        "source": "https://www.amazon.com/AlveyTech-Scooter-Wheels-Bearings-Orange/dp/B07ZL47CYP"
                       }
                     }
                   ],
@@ -4677,8 +5022,8 @@
                         },
                         {
                           "name": "Item Name",
-                          "ioValue": "M8 x 80 mm hex bolt, zinc",
-                          "currentEquation": "M8 x 80 mm hex bolt, zinc"
+                          "ioValue": "M8 x 80 mm stainless hex bolt with flat washers (goodparts 4-pack)",
+                          "currentEquation": "M8 x 80 mm stainless hex bolt with flat washers (goodparts 4-pack)"
                         },
                         {
                           "name": "Number Needed",
@@ -4690,14 +5035,15 @@
                         },
                         {
                           "name": "Source Link",
-                          "ioValue": ""
+                          "ioValue": "https://www.amazon.com/Stainless-Steel-Screws-Washers-Threaded/dp/B08XQQJ126",
+                          "currentEquation": "https://www.amazon.com/Stainless-Steel-Screws-Washers-Threaded/dp/B08XQQJ126"
                         }
                       ],
                       "BOMitem": {
-                        "BOMitemName": "M8 x 80 mm hex bolt, zinc",
+                        "BOMitemName": "M8 x 80 mm stainless hex bolt with flat washers (goodparts 4-pack)",
                         "numberNeeded": 1,
                         "costUSD": 0,
-                        "source": ""
+                        "source": "https://www.amazon.com/Stainless-Steel-Screws-Washers-Threaded/dp/B08XQQJ126"
                       }
                     }
                   ],
@@ -4848,8 +5194,8 @@
                         },
                         {
                           "name": "Item Name",
-                          "ioValue": "M8 nylon-insert lock nut, zinc",
-                          "currentEquation": "M8 nylon-insert lock nut, zinc"
+                          "ioValue": "M8 nylon-insert lock nut (MonsterBolts 25-pack)",
+                          "currentEquation": "M8 nylon-insert lock nut (MonsterBolts 25-pack)"
                         },
                         {
                           "name": "Number Needed",
@@ -4861,14 +5207,15 @@
                         },
                         {
                           "name": "Source Link",
-                          "ioValue": ""
+                          "ioValue": "https://www.amazon.com/Nylon-Insert-Metric-Coarse-Black/dp/B083Z2GCRR",
+                          "currentEquation": "https://www.amazon.com/Nylon-Insert-Metric-Coarse-Black/dp/B083Z2GCRR"
                         }
                       ],
                       "BOMitem": {
-                        "BOMitemName": "M8 nylon-insert lock nut, zinc",
+                        "BOMitemName": "M8 nylon-insert lock nut (MonsterBolts 25-pack)",
                         "numberNeeded": 1,
                         "costUSD": 0,
-                        "source": ""
+                        "source": "https://www.amazon.com/Nylon-Insert-Metric-Coarse-Black/dp/B083Z2GCRR"
                       }
                     }
                   ],
@@ -5155,7 +5502,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 23
+                      "ioValue": 60
                     },
                     {
                       "name": "yDist",
@@ -5180,8 +5527,8 @@
                     },
                     {
                       "name": "Item Name",
-                      "ioValue": "Everbilt single magnetic touch catch (push-to-open)",
-                      "currentEquation": "Everbilt single magnetic touch catch (push-to-open)"
+                      "ioValue": "Magnetic push-to-open latch, heavy duty (5-pack, one used)",
+                      "currentEquation": "Magnetic push-to-open latch, heavy duty (5-pack, one used)"
                     },
                     {
                       "name": "Number Needed",
@@ -5193,15 +5540,15 @@
                     },
                     {
                       "name": "Source Link",
-                      "ioValue": "https://www.homedepot.com/p/Everbilt-Single-Magnetic-Touch-Catch-Brown-1-Pack-9235969/303007767",
-                      "currentEquation": "https://www.homedepot.com/p/Everbilt-Single-Magnetic-Touch-Catch-Brown-1-Pack-9235969/303007767"
+                      "ioValue": "https://www.amazon.com/Magnetic-Latches-Hardware-Cabinets-Wardrobes/dp/B0D3Y5P7QB",
+                      "currentEquation": "https://www.amazon.com/Magnetic-Latches-Hardware-Cabinets-Wardrobes/dp/B0D3Y5P7QB"
                     }
                   ],
                   "BOMitem": {
-                    "BOMitemName": "Everbilt single magnetic touch catch (push-to-open)",
+                    "BOMitemName": "Magnetic push-to-open latch, heavy duty (5-pack, one used)",
                     "numberNeeded": 1,
                     "costUSD": 0,
-                    "source": "https://www.homedepot.com/p/Everbilt-Single-Magnetic-Touch-Catch-Brown-1-Pack-9235969/303007767"
+                    "source": "https://www.amazon.com/Magnetic-Latches-Hardware-Cabinets-Wardrobes/dp/B0D3Y5P7QB"
                   }
                 }
               ],
@@ -5334,7 +5681,7 @@
             },
             {
               "name": "Angle",
-              "ioValue": 85
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -5348,7 +5695,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 85
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "min(x, 90)"
@@ -5428,7 +5775,7 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 85
+                  "ioValue": 0
                 }
               ]
             },
