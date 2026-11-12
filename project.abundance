@@ -19,14 +19,118 @@
       ]
     },
     {
-      "atomType": "Import",
-      "x": 0.1905,
-      "y": 0.5437,
-      "uniqueID": "id-4",
-      "fileName": null,
-      "name": "Import",
-      "type": null,
-      "SVGwidth": 10
+      "atomType": "Molecule",
+      "x": 0.1276,
+      "y": 0.5972,
+      "uniqueID": "id-9",
+      "name": "References",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Import",
+          "x": 0.131,
+          "y": 0.2535,
+          "uniqueID": "id-13",
+          "fileName": "AbundanceScan-2026-11-11_174926.glb",
+          "name": "Import",
+          "type": "GLB",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Hidden_Door",
+          "SVGwidth": 10
+        },
+        {
+          "atomType": "Import",
+          "x": 0.1614,
+          "y": 0.7239,
+          "uniqueID": "id-15",
+          "fileName": "6BEACD7D-2DD7-499A-8120-296B3AAAB649.JPG",
+          "name": "Import",
+          "type": "JPG",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Hidden_Door",
+          "SVGwidth": 10
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.2414,
+          "y": 0.44,
+          "uniqueID": "id-17",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0.3
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0.47
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": -39.43
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3214,
+          "y": 0.56,
+          "uniqueID": "id-23",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 910
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13",
+          "ap2ID": "id-17"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-17",
+          "ap2ID": "id-23"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-23",
+          "ap2ID": "id-11"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [],
